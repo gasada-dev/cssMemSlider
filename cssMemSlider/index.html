@@ -10,32 +10,50 @@
 </head>
 
 <body>
-  <main class="main">
-    <div class="container">
-      <div class="slider">
+
+
+  <div class="container">
+    <div class="slider">
+      <input checked type="radio" name="slider" id="control1" class="radio-button">
+      <input type="radio" name="slider" id="control2" class="radio-button">
+      <input type="radio" name="slider" id="control3" class="radio-button">
+      <input type="radio" name="slider" id="control4" class="radio-button">
+      <div class="slider__overflow-img">
         <div class="slider__img">
-          <img class="img-mem1" src="./img/mem1.png">
-        </div>
-        <div class="slider__content">
-          <div class="slider__text">chance of error is very low, but...</div>
-          <div class="slider__controls">
-            <label class="control1">
-              <div class="circle"></div>
-            </label>
-            <label class="control2">
-              <div class="circle"></div>
-            </label>
-            <label class="control3">
-              <div class="circle"></div>
-            </label>
-            <label class="control4">
-              <div class="circle"></div>
-            </label>
-          </div>
+          <img class="img-mem img-mem1" src="./img/mem1.png">
+          <!-- <img class="img-mem img-mem2" src="./img/mem1.png">
+          <img class="img-mem img-mem3" src="./img/mem1.png">
+          <img class="img-mem img-mem4" src="./img/mem1.png"> -->
         </div>
       </div>
+
+      <div class="slider__content">
+        <div class="slider__slides-text-overflow">
+          <div class="slider__slides-text">
+            <div class="slider__text slider__text1">When you think how to hide "input type radio"...</div>
+            <div class="slider__text slider__text2">When you think how to hide "input type radio"...</div>
+            <div class="slider__text slider__text3">When you think how to hide "input type radio"...</div>
+            <div class="slider__text slider__text4">When you think how to hide "input type radio"...</div>
+          </div>
+        </div>
+        <div class="slider__controls">
+          <label for="control1" class="control1">
+            <div class="circle"></div>
+          </label>
+          <label for="control2" class="control2">
+            <div class="circle"></div>
+          </label>
+          <label for="control3" class="control3">
+            <div class="circle"></div>
+          </label>
+          <label for="control4" class="control4">
+            <div class="circle"></div>
+          </label>
+        </div>
+
+      </div>
     </div>
-  </main>
+  </div>
 </body>
 
 </html>
