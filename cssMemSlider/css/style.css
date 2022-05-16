@@ -2,27 +2,32 @@
 
 body{
   background-color: rgb(167, 166, 166);
-
+  overflow: hidden;
 }
 
 .container{
-  width: 32rem;
-  height: 20rem;
-  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 15rem;
   margin: 0 auto;
-  background-color: rgb(131, 131, 131);
 }
 
 .slider{
+  background-color: rgb(131, 131, 131);
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  padding: 0 1rem;
+  width: 30rem;
+  height: 30rem;
+  padding: 2rem;
+
 }
 
 .img-mem1{
+  display: block;
   width: 30rem;
-  height: 20rem;
-
+  height: 30rem;
+  margin: 0 auto;
 }
 
 .slider__content{
@@ -34,4 +39,23 @@ body{
 .slider__controls{
   display: flex;
   flex-direction: row;
+}
+
+.slider__controls label{
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+
+.circle{
+  background-color: #fff;
+  margin: 0.5rem;
+  width: 1.5em;
+  height: 1.5rem;
+  border-radius: 2rem;
+}
+
+.circle:hover{
+  background-color: rgb(204, 204, 204);
+
 }
